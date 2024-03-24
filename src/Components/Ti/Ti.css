@@ -1,0 +1,29 @@
+.curso-ti{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+
+
+}
+.ti{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.ti img{
+    width: 23%;
+    border-radius: 10px;
+
+}
+/* ----- media query --------*/
+@media (max-width:800px){
+    .ti{
+        flex-wrap:wrap;
+        
+    }
+    .ti img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}

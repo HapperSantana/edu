@@ -1,0 +1,29 @@
+.curso-mate{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+
+
+}
+.matematicas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.matematicas img{
+    width: 23%;
+    border-radius: 10px;
+
+}
+/* ----- media query --------*/
+@media (max-width:800px){
+    .matematicas{
+        flex-wrap:wrap;
+        
+    }
+    .matematicas img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
