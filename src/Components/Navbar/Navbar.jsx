@@ -27,9 +27,12 @@ const toggleMenu = ()=>{
         <ul className={mobileMenu?'' : 'hide-mobile-menu'}>
             <li><Link to='hero' smooth={true} offset={0} duration={500}>Inicio</Link></li>
             <li><Link to='program' smooth={true} offset={-260} duration={500}>Programas</Link></li>
+            <li><Link to='about' smooth={true} offset={-150} duration={500}>Nosotros</Link></li>
             
+            <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimoniales</Link></li>
+            <li><Link to='contact' className='btn' smooth={true} offset={-260} duration={500}>Contacto</Link></li>
         </ul>
-        
+        <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
 
     </nav>
   )

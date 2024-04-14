@@ -9,7 +9,7 @@ import ingles_4 from '../../assets/ingles4.png'
 
 const Ingles = () => {
   return (
-    <div className='contenido-ingles'>
+    <div className='curso-ingles'>
         <div className="ingles">
             <img src={ingles_1} alt="" />
             <img src={ingles_2} alt="" />

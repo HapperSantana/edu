@@ -45,8 +45,8 @@ const Testimonials = () => {
                         <div className="user-info">
                             <img src={user_1} alt="" />
                             <div>
-                                <h3>Gloria</h3>
-                                <span>Mexico, DF</span>
+                                <h3>Gloria Azucena Tamayo</h3>
+                                <span>Guadalajara, Jalisco</span>
                             </div>
                         </div>
                         <p>El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.</p>
@@ -57,7 +57,7 @@ const Testimonials = () => {
                         <div className="user-info">
                             <img src={user_2} alt="" />
                             <div>
-                                <h3>Eduardo</h3>
+                                <h3>Eduardo Resendiz</h3>
                                 <span>Guadalajara, Jalisco</span>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ const Testimonials = () => {
                         <div className="user-info">
                             <img src={user_3} alt="" />
                             <div>
-                                <h3>Karina</h3>
+                                <h3>Karina Martinez</h3>
                                 <span>Guadalajara, Jalisco</span>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ const Testimonials = () => {
                         <div className="user-info">
                             <img src={user_4} alt="" />
                             <div>
-                                <h3>Javier</h3>
+                                <h3>Javier Santana</h3>
                                 <span>Guadalajara, Jalisco</span>
                             </div>
                         </div>
