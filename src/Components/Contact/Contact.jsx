@@ -36,7 +36,7 @@ const Contact = () => {
     <div className='contact'>
         <div className="contact-col">
             <h3>Deja un mensaje <img src={msg_icon} alt="" /></h3>
-            <p>Indicanos como podemos ayudarte</p>
+            <p>Indicanos como podemos ayudarte, envia un mensaje y nos pondremos en contacto a la brevedad.</p>
             <ul>
                 <li><img src={mailn_icon} alt="" />contacto@educare.com</li>
                 <li><img src={phone_icon} alt="" />52 33 175 66 478</li>
@@ -52,6 +52,15 @@ const Contact = () => {
                 <input type="text" name='telefono' placeholder='Ingrese su telefono' required/>
                 <label >Mensaje</label>
                 <textarea name="mensaje" rows="6" placeholder='Ingrese su mensaje aquí  ' required></textarea>
+                <div className="check-politicas">
+                  <div>
+                  <input type="checkbox" name="politicas" required/>
+                  </div>
+                  <div>
+                  <label>&nbsp;Acepto las <a href=' ' className='url-politicas'>Politicas de Privacidad</a> del Sitio</label>
+                  </div>
+                </div>
+                
                 <button type='submit' className='btn dark-btn'>Enviar <img src={white_arrow} alt="" /></button>
 
             </form>
