@@ -5,6 +5,7 @@ import mailn_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
+import map_location from '../../assets/map_location.jpg'
 
 const Contact = () => {
     const [result, setResult] = React.useState("");
@@ -41,7 +42,9 @@ const Contact = () => {
                 <li><img src={mailn_icon} alt="" />contacto@educare.com</li>
                 <li><img src={phone_icon} alt="" />52 33 175 66 478</li>
                 <li><img src={location_icon} alt="" />Guadajalara, Jalisco. Mexico</li>
+                
             </ul>
+            <img src={map_location} alt="" className='map-location'/>
 
         </div>
         <div className="contact-col">
